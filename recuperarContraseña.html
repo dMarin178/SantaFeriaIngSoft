@@ -13,6 +13,7 @@
      <link rel="stylesheet"  href=".css/styles.css">    
 
     <title>Login</title>
+
 </head>
 <body>
     
@@ -26,28 +27,18 @@
         </div>
     </header>
 
-    <div class="login">
-        <form action="">
-           <h2 style="color:rgba(248, 200, 112, 0.8)">Iniciar Sesion </h2>
+    <div class="contenedor-form">
+        <div class="formulario">
+            <h2>Iniciar Sesion</h2>
             <form action="#">
-                <label for="rut">Rut</label>
-                <input type="text" id="Rut" class="form-control" name="login" placeholder="Ingrese Rut">
-                <label for="Contraseña">Contraseña</label>
-                <input type="password" id="Contraseña" class="form-control" name="login" placeholder="Ingrese contraseña">
-                <br><br>
-                <a href=""><button type="submit" class="fadeIn third">Iniciar sesion</button></a>
-            </form>         
-            <br></br>
-            <div class="reset password">
-                <a href="recuperarContraseña.html" 
-                style="margin-right: opx; font-size: 13px; font-family: sans-serif; color:white">Olvide mi contraseña | </a>
-                <a href="recuperarContraseña.html" 
-                style="margin-right: opx; font-size: 13px; font-family: sans-serif; color:white">Cambiar contraseña</a>
-            </div>
-        </form>
-    </div>
+                <input type="text" placeholder="Ingrese Rut" required>
+                <input type="mail" placeholder="Ingrese Mail" required>
+                <input type="submit" value="Recuperar contraseña">
+            </form>
+            
+        </div>
 
-  
+    </div>
 
 
 
