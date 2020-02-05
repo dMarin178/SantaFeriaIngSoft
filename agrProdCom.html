@@ -28,26 +28,23 @@
                             </div>
                             <div class="col-9">
                                 <nav class="nav">
-                                    <a class="nav-link active" href="#">Home</a>
+                                    <a class="nav-link" href="#">Home</a>
                                     <a class="nav-link" href="./productos.html">Productos</a>
                                     <a class="nav-link" href="#">Stock</a>
                                 </nav>
                             </div>
                         </div>
                     </div>
-                </header>
+            </header>
         
     </header>
 
-    <div class="container">
-        <div class="row justify-content-center">
+    <div class="agregarProductos">
+        <div class="row justify-content-center" style="color:rgb(206, 110, 0);">
             <h2>Agregar producto</h2>
-
         </div>
 
         <form>
-
-
             <div class="row">
                 <div class="col-sm-3  form-group">
                     <label for="inputCodigo">Codigo</label>
@@ -58,16 +55,18 @@
                     <label for="inputName">Nombre</label>
                     <input class="form-control" placeholder="Ingrese nombre" id="inputName">
                 </div>
+
                 <div class="col-sm-3 form-group">
                     <label for="inputMarca">Marca</label>
                     <input class="form-control" placeholder="Ingrese marca" id="inputMarca">
                 </div>
+
                 <div class="col-sm-3 form-group">
                     <label for="inputPrice">Precio</label>
                     <input class="form-control" placeholder="Ingrese precio" id="inputPrice">
                 </div>
-
             </div>
+
             <div class="row">
                 <div class="col-sm-3 form-group">
                     <label for="inputStockActual">Stock actual</label>
@@ -89,20 +88,20 @@
                 <div class="col-sm-3 form-group">
                     <div class="form-group">
                         <label for="inputFechaElab">Fecha de elaboracion</label>
-                        <input class="form-control" id="inputFechaElab"> </div>
+                        <input class="form-control" id="inputFechaElab" placeholder="dd-mm-aaaa"> </div>
                 </div>
                 <div class="col-sm-3 form-group">
                     <label for="inputFechaVencimiento">Fecha de vencimiento</label>
-                    <input class="form-control" id="inputFechaVencimiento">
+                    <input class="form-control" id="inputFechaVencimiento" placeholder="dd-mm-aaaa">
                 </div>
             </div>
-            <div class="row justify-content-end">
-                <div class="col-sm-3 form-group">
-                    <button class="btn btn-primary btn-block">Agregar</button>
-                </div>
 
+            <div class="col-sm-3 form-group">
+                <button class="btn btn-primary btn-lg" style="background-color:rgb(0, 105, 0); border-color: green;">Agregar</button>
             </div>
-    </div>
+
+        </div>
+    
 
     </form>
 

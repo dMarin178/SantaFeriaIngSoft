@@ -4,13 +4,11 @@
      <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Styles.css -->
-     <link rel="stylesheet"  href="./styles.css">    
+     <link rel="stylesheet"  href=".css/styles.css">    
 
     <title>Login</title>
 </head>
@@ -22,37 +20,41 @@
                 <div class="col-3">
                     <h1>Santa Feria</h1>
                 </div>
+                <div class="col-9">
+                    <nav class="nav">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                        <a class="nav-link" href="#">Stock</a>
+                    </nav>
+                </div>
+                </div>
             </div>
         </div>
     </header>
 
     <div class="login">
-        <form action="">
-           <h2 style="color:rgba(248, 200, 112, 0.8)">Iniciar Sesion </h2>
+        <form style= "width: 240px; text-align: center;">
+           <h2>Iniciar Sesion </h2>
             <form action="#">
                 <label for="rut">Rut</label>
-                <input type="text" id="Rut" class="form-control" name="login" placeholder="Ingrese Rut">
-                <label for="Contraseña">Contraseña</label>
-                <input type="password" id="Contraseña" class="form-control" name="login" placeholder="Ingrese contraseña">
+                <input style="margin-bottom:20px;"  type="text" id="Rut" class="form-control" name="login" placeholder="11.111.111-1">
+                <label for="Contraseña" >Contraseña</label>
+                <input type="password" id="Contraseña" class="form-control" name="login">
                 <br><br>
-                <a href=""><button type="submit" class="fadeIn third">Iniciar sesion</button></a>
+                <a class="button" ><button type="submit" class="fadeIn third">Iniciar sesion</button></a>
             </form>         
             <br></br>
             <div class="reset password">
                 <a href="recuperarContraseña.html" 
-                style="margin-right: opx; font-size: 13px; font-family: sans-serif; color:white">Olvide mi contraseña | </a>
+                style="margin-right:opx; font-size: 13px; font-family: sans-serif; color:white">Olvide mi contraseña | </a>
                 <a href="recuperarContraseña.html" 
-                style="margin-right: opx; font-size: 13px; font-family: sans-serif; color:white">Cambiar contraseña</a>
+                style="margin-right:opx; font-size: 13px; font-family: sans-serif; color:white">Cambiar contraseña</a>
             </div>
         </form>
     </div>
 
   
-
-
-
-
-      <!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

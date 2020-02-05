@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- Styles.css -->
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href=".css/styles.css">
 
     <title>
         Santa Feria
@@ -38,7 +38,7 @@
 
     </header>
 
-    <div class="container">
+    <div class="agregarProductos">
         <div class="row justify-content-center">
             <h2>Agregar producto</h2>
 
@@ -78,11 +78,11 @@
                  
                 <!--tipo de Producto -->
                 <div class="col-sm-3 form-group">
-                    <label for="tipo">Tipo</label>
-                    <select id="idTipo" class="form-control">
-                        <option value=" " disabled selected style:none;></option>
-                        <option value="Comestible">Comestible</option>
-                        <option value="NoComestible">No Comestible</option>
+                    <label for="tipoProducto">Tipo</label>
+                    <select id="Tipo" class="form-control">
+                        <option value="Selecccione" disabled selected style:none;></option>
+                        <option value="Comestible" onclick="mostrarComestible(),ocultarNoComestible()">Comestible</option>
+                        <option value="NoComestible" onclick="mostrarNoComestible(),ocultarComestible()">No Comestible</option>
                     </select>
                 </div>
 
@@ -106,7 +106,6 @@
                 
                 
                 <div class="col-sm-3 form-group" id="NoComestible">
-
                         <label for="tipoNoComestible">Tipo</label>
                         <select class="form-control" id=idHogarColegio>
                             <option>Hogar</option>

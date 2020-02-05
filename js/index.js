@@ -6,4 +6,20 @@ function agregarProducto() {
     alert( nombre )
 }
 
+function mostrarNoComestible(){
+    document.getElementById('NoComestible').style.display(block);
+}
+
+function mostrarComestible(){
+    document.getElementById('Comestible').style.display(block);
+}
+
+function ocultarComestible(){
+    document.getElementById('Comestible').style.display(none);
+}
+
+function ocultarNoComestible(){
+    document.getElementById('NoComestible').style.display(none);
+}
+
 
